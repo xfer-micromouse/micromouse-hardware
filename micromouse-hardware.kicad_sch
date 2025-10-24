@@ -4541,16 +4541,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 203.2) (xy 261.62 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a120c1f-4219-4a89-80fa-27c210636108")
-	)
-	(wire
-		(pts
 			(xy 118.11 119.38) (xy 118.11 133.35)
 		)
 		(stroke
@@ -5128,16 +5118,6 @@
 			(type default)
 		)
 		(uuid "5071a8b5-9d88-4340-80ee-1de7441982d9")
-	)
-	(wire
-		(pts
-			(xy 259.08 205.74) (xy 261.62 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "507fc58b-7dca-43dc-9ef1-f3fada43c8bb")
 	)
 	(wire
 		(pts
@@ -6530,7 +6510,7 @@
 		(uuid "27debe86-7435-48c0-98f1-227e72e9909d")
 	)
 	(label "A1"
-		(at 261.62 181.61 180)
+		(at 261.62 184.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6589,18 +6569,8 @@
 		)
 		(uuid "567321c3-a4e4-44dd-b852-8559aadae8ab")
 	)
-	(label "A4"
-		(at 259.08 203.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "59224511-960a-4788-8800-6c5a2a95a4e3")
-	)
 	(label "A2"
-		(at 261.62 184.15 180)
+		(at 261.62 181.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6638,6 +6608,16 @@
 			(justify right bottom)
 		)
 		(uuid "79640b1e-0c03-4464-8c4e-198a2013d4ae")
+	)
+	(label "A3"
+		(at 261.62 203.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "86aabd89-3887-48ef-b9de-0237e5c4eb48")
 	)
 	(label "MUX_SEL_1"
 		(at 303.53 101.6 270)
@@ -6719,6 +6699,16 @@
 		)
 		(uuid "c64dbcc1-8236-48d1-a2db-54e766ff13c5")
 	)
+	(label "A4"
+		(at 261.62 205.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ca34ad60-f3ea-4322-99cb-f4b7dec606e8")
+	)
 	(label "MUX_SEL_2"
 		(at 92.71 195.58 180)
 		(effects
@@ -6758,16 +6748,6 @@
 			(justify right bottom)
 		)
 		(uuid "db5c302c-90dc-4ae3-9674-12acb5cecdaa")
-	)
-	(label "A3"
-		(at 259.08 205.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ed1659ab-3472-48e1-82c6-bbafe1861b82")
 	)
 	(label "MUX_SEL_2"
 		(at 306.07 101.6 270)
