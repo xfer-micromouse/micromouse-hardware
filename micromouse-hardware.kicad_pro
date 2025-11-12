@@ -630,5 +630,7 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "LED_R": "120"
+  }
 }

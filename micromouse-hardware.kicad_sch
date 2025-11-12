@@ -4197,9 +4197,9 @@
 		)
 		(uuid bfe752cb-be3c-4f3f-962a-ef00017fbbc2)
 	)
-	(text "5V regulator"
+	(text "5V regulator - peak ~1A i const ~300mA"
 		(exclude_from_sim no)
-		(at 307.848 159.258 0)
+		(at 321.31 159.004 0)
 		(effects
 			(font
 				(size 1.27 1.27)
