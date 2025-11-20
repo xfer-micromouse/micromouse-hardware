@@ -60,22 +60,6 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|123190000|71705000|390bfe40-1d7a-483d-b87e-7792d266a73c|6480be3e-23f6-4317-9c55-8115d83559ad",
-          ""
-        ],
-        [
-          "clearance|123640000|69805000|2e421aab-7c29-4cb8-8efa-48dd7620d151|cd2a1deb-786f-40ce-8cc1-2b3d093cf8ea",
-          ""
-        ],
-        [
-          "clearance|123840000|71705000|6480be3e-23f6-4317-9c55-8115d83559ad|0d440c27-bc12-4769-ab52-eccf4fd4d6f8",
-          ""
-        ],
-        [
-          "clearance|124290000|69805000|4e92f651-7356-41d4-a388-59930f61d028|2e421aab-7c29-4cb8-8efa-48dd7620d151",
-          ""
-        ],
-        [
           "clearance|149041000|110217500|19244aa8-11c8-42b5-bdef-0974cd2d1042|c298975a-491a-430f-a1fd-ef1ab98828a4",
           ""
         ],
@@ -120,31 +104,7 @@
           ""
         ],
         [
-          "clearance|163550000|63425000|085832de-1016-478e-9731-31f40253f258|5ed04ac9-d8d4-4562-b476-866d2a1a3ea6",
-          ""
-        ],
-        [
-          "clearance|164000000|61525000|364aea97-c7fa-444b-a2a5-3e34d1d1d43c|d759f96b-c2af-4d35-a2f3-859560a207a4",
-          ""
-        ],
-        [
-          "clearance|164200000|63425000|5ed04ac9-d8d4-4562-b476-866d2a1a3ea6|8178f875-cacd-4b5a-9048-0d3c93767405",
-          ""
-        ],
-        [
-          "clearance|164650000|61525000|1be293ec-cb88-47eb-80ce-8f429dfd1478|364aea97-c7fa-444b-a2a5-3e34d1d1d43c",
-          ""
-        ],
-        [
-          "clearance|173325000|72600000|8cfceb77-120b-40ad-9964-c783386a32e5|e4c49a6d-d228-495f-80f7-dafa7eed4e21",
-          ""
-        ],
-        [
-          "clearance|173325000|73250000|e4c49a6d-d228-495f-80f7-dafa7eed4e21|1d6c68a7-8134-4eed-a262-a7fe1009aa7c",
-          ""
-        ],
-        [
-          "clearance|175225000|73050000|122bb449-63fd-4dbd-8a31-5e02b581900f|ab0ba4d3-0eaf-4de2-8775-ec737ea81149",
+          "courtyards_overlap|169326208|58752903|b9f79213-2bf8-4782-ae03-d592dcee0fd2|cd394dcc-2325-46f0-96c1-13cf54c1b2e9",
           ""
         ],
         [
@@ -369,22 +329,6 @@
         ],
         [
           "silk_overlap|154775000|50355000|e7b34849-0ef3-4f46-a621-a92ed9b89bb5|b34866b2-09bb-4ae6-8dbb-b48ed04448c8",
-          ""
-        ],
-        [
-          "silk_overlap|170525000|109660000|76824198-330d-44a2-b441-5b917b2f6597|bcb02810-9b78-49c3-a0ec-95215ec6e3cb",
-          ""
-        ],
-        [
-          "silk_overlap|170525000|109660000|76824198-330d-44a2-b441-5b917b2f6597|be4177be-8ea4-4bd2-aa3e-911a373e976f",
-          ""
-        ],
-        [
-          "silk_overlap|170525000|99260000|d2f44935-2ecc-4b18-b91f-5e6b85f93da8|5bcd42a0-991a-4356-90c7-de129eaaf6a1",
-          ""
-        ],
-        [
-          "silk_overlap|170525000|99260000|d2f44935-2ecc-4b18-b91f-5e6b85f93da8|be4177be-8ea4-4bd2-aa3e-911a373e976f",
           ""
         ],
         [
@@ -614,7 +558,8 @@
       ],
       "track_widths": [
         0.0,
-        0.0
+        0.0,
+        0.7
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -964,7 +909,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "out/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -1036,6 +981,12 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Order Link",
+          "name": "Order Link",
           "show": false
         }
       ],

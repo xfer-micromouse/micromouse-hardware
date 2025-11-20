@@ -3628,7 +3628,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:MBT3904DW1"
+		(symbol "Transistor_BJT:BCP56"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -3637,7 +3637,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+				(at 5.08 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3645,8 +3645,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "MBT3904DW1"
-				(at 5.08 -1.27 0)
+			(property "Value" "BCP56"
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3654,16 +3654,28 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-				(at 5.08 2.54 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/BCP56_BCX56_BC56PA.pdf"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT3904DW1T1-D.PDF"
+			(property "Description" "1A Ic, 80V Vce, NPN Medium Power Transistor, SOT-223"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3672,7 +3684,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
+			(property "ki_keywords" "NPN Transistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3681,15 +3693,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "NPN/NPN Transistor"
+			(property "ki_fp_filters" "SOT?223*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3698,58 +3702,25 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?363*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MBT3904DW1_0_1"
+			(symbol "BCP56_0_1"
 				(polyline
 					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
 					)
 					(stroke
 						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -3769,7 +3740,45 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+						(xy 2.54 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BCP56_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -3779,12 +3788,28 @@
 						(type outline)
 					)
 				)
-			)
-			(symbol "MBT3904DW1_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "B1"
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3800,65 +3825,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "E1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "MBT3904DW1_2_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C2"
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3874,9 +3843,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 5.08 5.08 270)
 					(length 2.54)
-					(name "E2"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4354,16 +4323,16 @@
 		(uuid "850fdbda-415f-40af-a1c7-f01e57a29914")
 	)
 	(junction
+		(at 92.71 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0eb786cd-374c-4c49-9273-2966c7b7407c")
+	)
+	(junction
 		(at 326.39 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12683c0a-2bf8-4862-9e01-2bf43989d158")
-	)
-	(junction
-		(at 208.915 95.885)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "129f1c8d-0980-435a-8b8c-d85d3bff6fab")
 	)
 	(junction
 		(at 344.17 44.45)
@@ -4432,16 +4401,16 @@
 		(uuid "5371b532-8b2f-4f77-b6fc-c7810f1c6696")
 	)
 	(junction
-		(at 208.915 90.805)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54b96163-6e23-48c2-bcca-a07eb2d0d809")
-	)
-	(junction
 		(at 170.18 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58001f85-94d4-47ef-a628-8baf0fe6c8d4")
+	)
+	(junction
+		(at 54.61 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e09f740-e3ef-4bd9-9954-97b8dc7666ef")
 	)
 	(junction
 		(at 229.87 182.88)
@@ -4480,10 +4449,22 @@
 		(uuid "76e9267f-8a7d-4a64-8736-197ef36a63c2")
 	)
 	(junction
+		(at 132.08 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77d82073-2113-4a79-b974-4baee79bff1d")
+	)
+	(junction
 		(at 106.68 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "795d639c-97df-4bbe-a30b-79ad64bedbec")
+	)
+	(junction
+		(at 170.18 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a8ba311-f506-4fc9-801b-9ce2ffc3c786")
 	)
 	(junction
 		(at 363.22 194.31)
@@ -4611,6 +4592,12 @@
 		(color 0 0 0 0)
 		(uuid "f3d04c1e-85bc-4aa6-95c7-4fb36fdd06d6")
 	)
+	(junction
+		(at 215.9 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9326c92-2774-4b43-94f8-9fa067ccb9ed")
+	)
 	(no_connect
 		(at 118.11 208.28)
 		(uuid "03d75f97-481f-46b4-a68d-11cc8f32ebb8")
@@ -4720,16 +4707,6 @@
 			(type default)
 		)
 		(uuid "04001707-b1fd-4eb8-be0a-b09d13acc893")
-	)
-	(wire
-		(pts
-			(xy 208.915 95.885) (xy 216.535 95.885)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0459027a-372b-443e-8af1-2d8fac71a7a2")
 	)
 	(wire
 		(pts
@@ -4863,16 +4840,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.915 90.805) (xy 208.915 95.885)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d03d6e8-7d2f-4541-80ee-987cd1b9dd05")
-	)
-	(wire
-		(pts
 			(xy 251.46 203.2) (xy 251.46 210.82)
 		)
 		(stroke
@@ -4880,6 +4847,16 @@
 			(type default)
 		)
 		(uuid "106ba2c9-368f-465d-867f-e78f3ecbf42f")
+	)
+	(wire
+		(pts
+			(xy 215.9 54.61) (xy 218.44 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1198589e-1629-4647-94bf-b7807669bcd1")
 	)
 	(wire
 		(pts
@@ -5783,16 +5760,6 @@
 	)
 	(wire
 		(pts
-			(xy 216.535 85.725) (xy 208.915 85.725)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "655e3ae4-9657-49a6-92b7-d378795d92f5")
-	)
-	(wire
-		(pts
 			(xy 264.795 184.15) (xy 266.7 184.15)
 		)
 		(stroke
@@ -6040,6 +6007,16 @@
 			(type default)
 		)
 		(uuid "7d465d80-28dd-410f-a97f-12db9fc97bc9")
+	)
+	(wire
+		(pts
+			(xy 92.71 54.61) (xy 95.25 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d94216a-18fe-4539-abeb-cc0cf5873910")
 	)
 	(wire
 		(pts
@@ -6373,16 +6350,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.915 85.725) (xy 208.915 90.805)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a89211cd-d693-4a4d-b326-07a92fdb55d6")
-	)
-	(wire
-		(pts
 			(xy 88.9 182.88) (xy 92.71 182.88)
 		)
 		(stroke
@@ -6470,6 +6437,16 @@
 			(type default)
 		)
 		(uuid "b2afaf99-5042-4083-a9c3-e30bea0eabe8")
+	)
+	(wire
+		(pts
+			(xy 170.18 54.61) (xy 172.72 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b33dcdea-ac41-4afe-8f35-b56e62ff6e19")
 	)
 	(wire
 		(pts
@@ -6823,6 +6800,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 54.61) (xy 134.62 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0ae9501-3c66-499f-8667-c9bf12f799e5")
+	)
+	(wire
+		(pts
 			(xy 85.09 208.28) (xy 92.71 208.28)
 		)
 		(stroke
@@ -6860,6 +6847,16 @@
 			(type default)
 		)
 		(uuid "eb8bfa49-f703-465f-a61f-97d174e79ec4")
+	)
+	(wire
+		(pts
+			(xy 54.61 54.61) (xy 57.15 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebc14517-d1b4-4204-94d7-370ecd7db9a7")
 	)
 	(wire
 		(pts
@@ -7556,88 +7553,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MBT3904DW1")
-		(at 90.17 59.69 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0027bb52-7746-43d6-85dc-dd2711a99450")
-		(property "Reference" "Q2"
-			(at 95.25 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MBT3904DW1"
-			(at 95.25 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 95.25 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT3904DW1T1-D.PDF"
-			(at 90.17 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
-			(at 90.17 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "a1083a5a-9332-4174-b54b-5b0ade4ab6be")
-		)
-		(pin "5"
-			(uuid "12b4f8a7-b415-4755-a985-5561eb92b53e")
-		)
-		(pin "1"
-			(uuid "1fc669e6-9201-453b-a08f-e85fcdc1fdb1")
-		)
-		(pin "2"
-			(uuid "5fb41d8d-f45d-4a84-bd1f-2b31d3a96062")
-		)
-		(pin "3"
-			(uuid "5c13a791-8c3b-4908-9ca0-36a52b7fc700")
-		)
-		(pin "6"
-			(uuid "f75979d5-598f-4c8b-b4bd-4578389f963b")
-		)
-		(instances
-			(project ""
-				(path "/91c5e4ba-892a-4a94-80b3-76097b5bc9c4"
-					(reference "Q2")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 54.61 73.66 0)
 		(unit 1)
@@ -8263,88 +8178,6 @@
 				(path "/91c5e4ba-892a-4a94-80b3-76097b5bc9c4"
 					(reference "R23")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MBT3904DW1")
-		(at 167.64 59.69 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c33f415-0461-434e-9952-2837ceeb1d23")
-		(property "Reference" "Q1"
-			(at 172.72 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MBT3904DW1"
-			(at 172.72 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 172.72 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT3904DW1T1-D.PDF"
-			(at 167.64 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
-			(at 167.64 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "3131ce08-dac1-4037-852e-b873ec4ab3ce")
-		)
-		(pin "5"
-			(uuid "119e969d-0a76-4eec-8956-b2f2daca7cd8")
-		)
-		(pin "1"
-			(uuid "1fc669e6-9201-453b-a08f-e85fcdc1fdb2")
-		)
-		(pin "2"
-			(uuid "5fb41d8d-f45d-4a84-bd1f-2b31d3a96063")
-		)
-		(pin "3"
-			(uuid "53ae8a82-d76d-481f-8e89-da0ac03967cf")
-		)
-		(pin "6"
-			(uuid "f75979d5-598f-4c8b-b4bd-4578389f963c")
-		)
-		(instances
-			(project "micromouse-hardware"
-				(path "/91c5e4ba-892a-4a94-80b3-76097b5bc9c4"
-					(reference "Q1")
-					(unit 2)
 				)
 			)
 		)
@@ -9433,88 +9266,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MBT3904DW1")
-		(at 129.54 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3935d096-63fa-4935-8ebb-6641c9fd2876")
-		(property "Reference" "Q1"
-			(at 134.62 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MBT3904DW1"
-			(at 134.62 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 134.62 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT3904DW1T1-D.PDF"
-			(at 129.54 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
-			(at 129.54 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "a1083a5a-9332-4174-b54b-5b0ade4ab6bf")
-		)
-		(pin "5"
-			(uuid "12b4f8a7-b415-4755-a985-5561eb92b53f")
-		)
-		(pin "1"
-			(uuid "5eec8443-6c74-4836-bd35-a98e511b049d")
-		)
-		(pin "2"
-			(uuid "217c3db7-182f-4c16-bac0-ab4db04d44e9")
-		)
-		(pin "3"
-			(uuid "5c13a791-8c3b-4908-9ca0-36a52b7fc701")
-		)
-		(pin "6"
-			(uuid "7093f7ee-3bf0-47e2-b9d6-81da410c30ff")
-		)
-		(instances
-			(project "micromouse-hardware"
-				(path "/91c5e4ba-892a-4a94-80b3-76097b5bc9c4"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 266.7 27.94 0)
 		(unit 1)
@@ -9575,6 +9326,85 @@
 			(project ""
 				(path "/91c5e4ba-892a-4a94-80b3-76097b5bc9c4"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BCP56")
+		(at 90.17 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45103e52-0acf-4331-817a-ec693a2821b1")
+		(property "Reference" "Q2"
+			(at 96.52 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BCP56"
+			(at 96.52 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom:SOT-223-3_TabPin4"
+			(at 95.25 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/BCP56_BCX56_BC56PA.pdf"
+			(at 90.17 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Ic, 80V Vce, NPN Medium Power Transistor, SOT-223"
+			(at 90.17 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7f9613a9-0a05-4b0b-af13-db9b101ef7b3")
+		)
+		(pin "4"
+			(uuid "1fa81bd8-cb8c-40e3-90f4-aeb68ed72776")
+		)
+		(pin "3"
+			(uuid "36f66918-6914-4691-8b5f-d3a26c886a84")
+		)
+		(pin "1"
+			(uuid "1c16b2f6-709b-475a-a740-f9dc8edd5c64")
+		)
+		(instances
+			(project "micromouse-hardware"
+				(path "/91c5e4ba-892a-4a94-80b3-76097b5bc9c4"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -10664,88 +10494,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MBT3904DW1")
-		(at 52.07 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74896566-30b5-4771-b8a4-83568a57729f")
-		(property "Reference" "Q2"
-			(at 57.15 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MBT3904DW1"
-			(at 57.15 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 57.15 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT3904DW1T1-D.PDF"
-			(at 52.07 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
-			(at 52.07 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "a1083a5a-9332-4174-b54b-5b0ade4ab6c0")
-		)
-		(pin "5"
-			(uuid "12b4f8a7-b415-4755-a985-5561eb92b540")
-		)
-		(pin "1"
-			(uuid "1fc669e6-9201-453b-a08f-e85fcdc1fdb3")
-		)
-		(pin "2"
-			(uuid "5fb41d8d-f45d-4a84-bd1f-2b31d3a96064")
-		)
-		(pin "3"
-			(uuid "5c13a791-8c3b-4908-9ca0-36a52b7fc702")
-		)
-		(pin "6"
-			(uuid "f75979d5-598f-4c8b-b4bd-4578389f963d")
-		)
-		(instances
-			(project ""
-				(path "/91c5e4ba-892a-4a94-80b3-76097b5bc9c4"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 85.09 219.71 0)
 		(unit 1)
@@ -11535,6 +11283,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:BCP56")
+		(at 213.36 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "937cc2c1-f003-43a1-b022-5aa33f5b504a")
+		(property "Reference" "Q10"
+			(at 219.71 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BCP56"
+			(at 219.71 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom:SOT-223-3_TabPin4"
+			(at 218.44 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/BCP56_BCX56_BC56PA.pdf"
+			(at 213.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Ic, 80V Vce, NPN Medium Power Transistor, SOT-223"
+			(at 213.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "620b0579-82a3-47ab-bffd-579e7618287d")
+		)
+		(pin "4"
+			(uuid "5c0e0759-464d-4128-9960-67cbb3eac0d8")
+		)
+		(pin "3"
+			(uuid "84354b8e-bd15-4777-a7c0-78f425556d92")
+		)
+		(pin "1"
+			(uuid "2dc82366-11ea-4213-9f27-5d47e052ef95")
+		)
+		(instances
+			(project "micromouse-hardware"
+				(path "/91c5e4ba-892a-4a94-80b3-76097b5bc9c4"
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 215.9 36.83 90)
 		(unit 1)
@@ -12066,6 +11893,85 @@
 			(project "micromouse-hardware"
 				(path "/91c5e4ba-892a-4a94-80b3-76097b5bc9c4"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BCP56")
+		(at 167.64 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c643749-351a-4432-91ca-ea4da2433338")
+		(property "Reference" "Q9"
+			(at 173.99 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BCP56"
+			(at 173.99 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom:SOT-223-3_TabPin4"
+			(at 172.72 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/BCP56_BCX56_BC56PA.pdf"
+			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Ic, 80V Vce, NPN Medium Power Transistor, SOT-223"
+			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "022d276c-063f-402f-82f6-60b4e49b77ae")
+		)
+		(pin "4"
+			(uuid "6eb4e6d7-b8fb-4b63-b7cd-82e813906200")
+		)
+		(pin "3"
+			(uuid "05ee97f8-754e-4e21-bd8e-1b1b54404ccd")
+		)
+		(pin "1"
+			(uuid "f7da7fc2-2125-4c38-9e16-fe7886df48a3")
+		)
+		(instances
+			(project "micromouse-hardware"
+				(path "/91c5e4ba-892a-4a94-80b3-76097b5bc9c4"
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -13152,6 +13058,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:BCP56")
+		(at 52.07 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b41799eb-413d-4dab-a03a-07ef83fc797f")
+		(property "Reference" "Q1"
+			(at 58.42 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BCP56"
+			(at 58.42 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom:SOT-223-3_TabPin4"
+			(at 57.15 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/BCP56_BCX56_BC56PA.pdf"
+			(at 52.07 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Ic, 80V Vce, NPN Medium Power Transistor, SOT-223"
+			(at 52.07 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "46405775-1576-4b97-92a8-4e2cc1f13a74")
+		)
+		(pin "4"
+			(uuid "8618be06-0648-41a0-992f-4d0caad4277c")
+		)
+		(pin "3"
+			(uuid "0f494666-00c1-4179-bc01-56c14028a000")
+		)
+		(pin "1"
+			(uuid "50e3eb8e-3752-4635-abf3-e24ef432d097")
+		)
+		(instances
+			(project ""
+				(path "/91c5e4ba-892a-4a94-80b3-76097b5bc9c4"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 54.61 29.21 0)
 		(unit 1)
@@ -13213,236 +13198,6 @@
 				(path "/91c5e4ba-892a-4a94-80b3-76097b5bc9c4"
 					(reference "#PWR011")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 208.915 95.885 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b5031249-e4e0-417f-b021-f3e1ec7b074a")
-		(property "Reference" "#PWR034"
-			(at 208.915 102.235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 208.915 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.915 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.915 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 208.915 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5ec36cd5-a481-4995-ad9f-2fa3abf6deaa")
-		)
-		(instances
-			(project "micromouse-hardware"
-				(path "/91c5e4ba-892a-4a94-80b3-76097b5bc9c4"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MBT3904DW1")
-		(at 213.36 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b515cdcf-a478-4b53-8f9b-7c0c4ad45823")
-		(property "Reference" "Q3"
-			(at 218.44 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MBT3904DW1"
-			(at 218.44 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 218.44 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT3904DW1T1-D.PDF"
-			(at 213.36 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
-			(at 213.36 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "a1083a5a-9332-4174-b54b-5b0ade4ab6c1")
-		)
-		(pin "5"
-			(uuid "12b4f8a7-b415-4755-a985-5561eb92b541")
-		)
-		(pin "1"
-			(uuid "430e3d86-0b6e-467c-aa69-de3d809dcfd2")
-		)
-		(pin "2"
-			(uuid "df1ab63e-b075-438f-aaf9-471260cb32c8")
-		)
-		(pin "3"
-			(uuid "5c13a791-8c3b-4908-9ca0-36a52b7fc703")
-		)
-		(pin "6"
-			(uuid "9a373362-c757-4c4e-a22e-d500a58f3c63")
-		)
-		(instances
-			(project "micromouse-hardware"
-				(path "/91c5e4ba-892a-4a94-80b3-76097b5bc9c4"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MBT3904DW1")
-		(at 213.995 90.805 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b515cdcf-a478-4b53-8f9b-7c0c4ad45824")
-		(property "Reference" "Q3"
-			(at 219.71 89.5349 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MBT3904DW1"
-			(at 219.71 92.0749 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 219.075 88.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT3904DW1T1-D.PDF"
-			(at 213.995 90.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
-			(at 213.995 90.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "a1083a5a-9332-4174-b54b-5b0ade4ab6c2")
-		)
-		(pin "5"
-			(uuid "12b4f8a7-b415-4755-a985-5561eb92b542")
-		)
-		(pin "1"
-			(uuid "430e3d86-0b6e-467c-aa69-de3d809dcfd3")
-		)
-		(pin "2"
-			(uuid "df1ab63e-b075-438f-aaf9-471260cb32c9")
-		)
-		(pin "3"
-			(uuid "5c13a791-8c3b-4908-9ca0-36a52b7fc704")
-		)
-		(pin "6"
-			(uuid "9a373362-c757-4c4e-a22e-d500a58f3c64")
-		)
-		(instances
-			(project "micromouse-hardware"
-				(path "/91c5e4ba-892a-4a94-80b3-76097b5bc9c4"
-					(reference "Q3")
-					(unit 2)
 				)
 			)
 		)
@@ -14269,6 +14024,85 @@
 			(project "micromouse-hardware"
 				(path "/91c5e4ba-892a-4a94-80b3-76097b5bc9c4"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BCP56")
+		(at 129.54 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dafb524f-86e3-484c-b4a0-118c371fd39a")
+		(property "Reference" "Q3"
+			(at 135.89 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BCP56"
+			(at 135.89 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom:SOT-223-3_TabPin4"
+			(at 134.62 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/BCP56_BCX56_BC56PA.pdf"
+			(at 129.54 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Ic, 80V Vce, NPN Medium Power Transistor, SOT-223"
+			(at 129.54 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c2e7c5c8-e10a-4a54-999d-3afeb053ed2c")
+		)
+		(pin "4"
+			(uuid "06ffacde-1edc-47c7-b8b9-787e2b480bfd")
+		)
+		(pin "3"
+			(uuid "e821e475-23ee-4ca3-82ec-d4e967baa9fa")
+		)
+		(pin "1"
+			(uuid "47d81907-2ab6-4500-8200-178b7467af82")
+		)
+		(instances
+			(project "micromouse-hardware"
+				(path "/91c5e4ba-892a-4a94-80b3-76097b5bc9c4"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
