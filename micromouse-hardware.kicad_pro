@@ -3,6 +3,8 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
+        "apply_defaults_to_fp_barcodes": false,
+        "apply_defaults_to_fp_dimensions": false,
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
@@ -60,39 +62,7 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|149041000|110217500|19244aa8-11c8-42b5-bdef-0974cd2d1042|c298975a-491a-430f-a1fd-ef1ab98828a4",
-          ""
-        ],
-        [
-          "clearance|149041000|110439000|a78ac33f-d299-4104-bf6b-5872b252b220|c298975a-491a-430f-a1fd-ef1ab98828a4",
-          ""
-        ],
-        [
-          "clearance|150389000|110217500|4ba02ec0-5dd9-4906-99a7-a69f95e4fde6|c298975a-491a-430f-a1fd-ef1ab98828a4",
-          ""
-        ],
-        [
-          "clearance|150400000|110654400|a466bc35-e57c-40dc-9e62-53bacecd5a60|c298975a-491a-430f-a1fd-ef1ab98828a4",
-          ""
-        ],
-        [
           "clearance|150590000|103653400|646d8e18-ddf2-4244-b022-f64767e851c6|b93869b1-088a-458c-a565-647e583b4d60",
-          ""
-        ],
-        [
-          "clearance|151039000|110140000|56596c67-715d-4638-973a-f3dd10b147e9|aa06cb62-f59c-4a97-ab1c-016fe7a011ce",
-          ""
-        ],
-        [
-          "clearance|151050000|111570000|64d8c525-4d51-4765-8b9d-d501292f4500|aa06cb62-f59c-4a97-ab1c-016fe7a011ce",
-          ""
-        ],
-        [
-          "clearance|151790000|110140000|aa06cb62-f59c-4a97-ab1c-016fe7a011ce|c1c59d2e-f2c7-452c-b46e-5c320ca763f5",
-          ""
-        ],
-        [
-          "clearance|151790000|110485000|aa06cb62-f59c-4a97-ab1c-016fe7a011ce|d288d0f0-fa22-4361-b52c-0868fa5859d4",
           ""
         ],
         [
@@ -116,14 +86,6 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|111035000|100522500|38bca099-ca3a-461b-88cc-5105879ec067|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|116477500|103460000|c7a4da1f-c3b5-42ed-a59c-1675998022db|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|119000000|72500000|bd576b80-2deb-42de-bdbd-296974ac4bc4|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -133,10 +95,6 @@
         ],
         [
           "lib_footprint_mismatch|119960000|80750000|db74f298-d6d7-4ff9-864c-9ca97608c919|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|122005000|100522500|a42d161c-d0ba-4ffc-9999-fc0ce26fe8b1|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -236,22 +194,6 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|181500000|71500000|b61e610b-933e-4d2d-91c6-091ba9478e48|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|181510000|80370000|77631733-2810-466a-a1ea-5da887ec9902|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|189000000|79500000|3f00f45a-b972-478d-8f53-66173bf5bf27|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|190500000|85500000|a6f5ee3a-ce39-4aad-a45d-9ab51832c4a0|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "silk_edge_clearance|107500000|88055000|c55e405e-7408-49d0-a351-2da4f07d02db|ac8d00e0-6431-41ae-a1ff-5997031a54c9",
           ""
         ],
@@ -316,38 +258,6 @@
           ""
         ],
         [
-          "silk_edge_clearance|191523082|77939999|8efbd096-7d32-41fc-8584-c44d5d759fd4|a2a01d63-ef53-4818-9efa-9f2f9246f5e3",
-          ""
-        ],
-        [
-          "silk_edge_clearance|192082851|81059999|8efbd096-7d32-41fc-8584-c44d5d759fd4|da557063-76a3-4d6d-bcf0-c92f57b81da1",
-          ""
-        ],
-        [
-          "silk_edge_clearance|192306110|82944999|8efbd096-7d32-41fc-8584-c44d5d759fd4|c591fc5e-e25c-4828-a120-d11ea3e9e0f0",
-          ""
-        ],
-        [
-          "silk_edge_clearance|192500000|88065000|df638679-21c3-4514-9278-ead4b6e802aa|ec67db6b-0500-41bc-99e6-f1ecdd89e476",
-          ""
-        ],
-        [
-          "silk_overlap|113525000|80770000|524a5265-3d5f-479a-8076-c8dd9a45da4b|87952681-ebe4-4a15-8dde-a7b434f8f0e7",
-          ""
-        ],
-        [
-          "silk_overlap|113675000|86765000|1ae01488-137a-4cc4-b647-021c33d1a25b|b403cb34-d411-4d97-9353-37dd69637a27",
-          ""
-        ],
-        [
-          "silk_overlap|113705000|78230000|4ef23365-f58b-4294-8d6d-0333cde7ce09|f73dae5d-9d9e-4fc0-88e8-4936430ffda2",
-          ""
-        ],
-        [
-          "silk_overlap|113855000|84225000|9c28f9b1-de28-4479-9c34-eb2aa6486de5|9dcea57b-70bf-40a5-b68a-eb3719676e86",
-          ""
-        ],
-        [
           "silk_overlap|146230000|50025000|3db6414d-6143-4483-a864-ecda49dd08ff|1699fc60-266c-46a2-8010-276cb27e6d48",
           ""
         ],
@@ -361,30 +271,6 @@
         ],
         [
           "silk_overlap|154775000|50355000|fd4c846e-2e10-4ca1-b042-0d807b9e1230|b34866b2-09bb-4ae6-8dbb-b48ed04448c8",
-          ""
-        ],
-        [
-          "silk_overlap|185645000|86775000|71c298db-27bd-4e3a-aac2-c4095aa682cf|b21948dc-7d5e-45bf-aa20-39065d642204",
-          ""
-        ],
-        [
-          "silk_overlap|185795000|80770000|af39363b-8a5e-4f6a-8dc7-7d063a751bd0|e2df0028-c2b6-41a2-9dac-5c8ff26b64f8",
-          ""
-        ],
-        [
-          "silk_overlap|185825000|84235000|0c18346b-d16f-4815-90d2-bc120770be63|df622777-81d0-4fb5-a11d-a5125215a074",
-          ""
-        ],
-        [
-          "silk_overlap|185975000|78230000|83e846db-1ebd-48bf-a669-a04a53b8365d|e6c9d709-82c9-4179-9e5c-11978a74f953",
-          ""
-        ],
-        [
-          "text_height|109000000|146250000|fac7b1e7-ce3a-4f61-8188-05fdeadc65f6|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "text_thickness|109000000|146250000|fac7b1e7-ce3a-4f61-8188-05fdeadc65f6|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -406,6 +292,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
@@ -424,6 +311,7 @@
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
+        "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
@@ -443,9 +331,12 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "error",
+        "track_not_centered_on_via": "ignore",
+        "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
+        "tuning_profile_track_geometries": "ignore",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "error",
@@ -555,17 +446,28 @@
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
+      "bom_rev": "",
       "dist": "",
       "distpn": "",
       "internal_id": "",
       "mfg": "",
-      "mpn": ""
+      "mpn": "",
+      "sch_revision": ""
     },
     "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
   "boards": [],
+  "component_class_settings": {
+    "assignments": [],
+    "meta": {
+      "version": 0
+    },
+    "sheet_component_classes": {
+      "enabled": false
+    }
+  },
   "cvpcb": {
     "equivalence_files": []
   },
@@ -756,11 +658,14 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
+      "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
+      "isolated_pin_label": "warning",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
@@ -783,6 +688,7 @@
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
       "single_global_label": "ignore",
+      "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -815,6 +721,7 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
+        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -830,12 +737,13 @@
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
+        "tuning_profile": "",
         "via_diameter": 0.8,
         "via_drill": 0.5
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": {
@@ -879,6 +787,10 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "annotation": {
+      "method": 0,
+      "sort_order": 0
+    },
     "bom_export_filename": "../../../Desktop/micromouse-hardware.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -986,6 +898,7 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
+    "bus_aliases": {},
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -993,6 +906,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
+      "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -1016,6 +930,7 @@
     "net_format_name": "KiCad",
     "page_layout_descr_file": "",
     "plot_directory": "",
+    "reuse_designators": true,
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -1024,7 +939,16 @@
     "spice_save_all_dissipations": false,
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
-    "subpart_id_separator": 0
+    "subpart_id_separator": 0,
+    "top_level_sheets": [
+      {
+        "filename": "micromouse-hardware.kicad_sch",
+        "name": "micromouse-hardware",
+        "uuid": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "used_designators": "",
+    "variants": []
   },
   "sheets": [
     [
@@ -1032,5 +956,11 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {},
+  "tuning_profiles": {
+    "meta": {
+      "version": 0
+    },
+    "tuning_profiles_impedance_geometric": []
+  }
 }
